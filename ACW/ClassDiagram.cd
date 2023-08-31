@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Physics">
+    <Position X="18.75" Y="4.5" Width="3" />
+    <Members>
+      <Method Name="~Physics" Hidden="true" />
+      <Method Name="GetBoundingRadius" Hidden="true" />
+      <Method Name="GetForce" Hidden="true" />
+      <Method Name="GetGravity" Hidden="true" />
+      <Method Name="GetImpactForces" Hidden="true" />
+      <Method Name="GetMass" Hidden="true" />
+      <Method Name="GetMaxResilience" Hidden="true" />
+      <Method Name="GetMaxSpeed" Hidden="true" />
+      <Method Name="GetPrevPos" Hidden="true" />
+      <Method Name="GetSpeed" Hidden="true" />
+      <Method Name="GetVelocity" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Physics" Hidden="true" />
+      <Method Name="SetBoundingRadius" Hidden="true" />
+      <Method Name="SetForce" Hidden="true" />
+      <Method Name="SetGravity" Hidden="true" />
+      <Method Name="SetImpactForces" Hidden="true" />
+      <Method Name="SetIsColliding" Hidden="true" />
+      <Method Name="SetIsInFlight" Hidden="true" />
+      <Method Name="SetMass" Hidden="true" />
+      <Method Name="SetMaxResilience" Hidden="true" />
+      <Method Name="SetMaxSpeed" Hidden="true" />
+      <Method Name="SetPrevPos" Hidden="true" />
+      <Method Name="SetSpeed" Hidden="true" />
+      <Method Name="SetVelocity" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAAACEBIIQBBgAACIJABAEAk1ogkQBBFAggiMAACU=</HashCode>
+      <FileName>Source\Physics.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Integrator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PhysicsManager">
+    <Position X="23" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAABABAAAQAAAAgAAAIAAA=</HashCode>
+      <FileName>Source\Physics.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_integrator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::shared_ptr&lt;_Ty&gt;" Collapsed="true">
+    <Position X="23" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAIAgAAEAEAAICgAQAgAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\memory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEntity" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAIAAAADCCQgAAAAAIAAAAAERQAAgBAABEkAAAAAAA=</HashCode>
+      <FileName>Source\GameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AI Module">
+      <UniqueIdentifier>{e24d60d6-1004-459a-9c30-1cbe7af85e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics Engine">
+      <UniqueIdentifier>{beb0bc0e-eb10-4d06-b3bf-c8b22144dba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{c3eb9ccb-76cc-463f-abc3-102834439dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World Interface">
+      <UniqueIdentifier>{beea8ace-3e7f-409f-9cf7-dd57f58af245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Entities">
+      <UniqueIdentifier>{77db8179-24dd-4b1d-9832-cabec5ae91f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics Engine">
+      <UniqueIdentifier>{33511e0f-d27e-4387-b73c-8f47be4a6cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Entities">
+      <UniqueIdentifier>{36594a1c-033d-4111-bbed-23e03579a514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World Interface">
+      <UniqueIdentifier>{d73d2e53-7c5b-44be-b0c7-0a3412ab2993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{4ca03471-d934-48ea-8b09-6e712f6d1028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI Module">
+      <UniqueIdentifier>{366849a0-29b4-4457-93d2-b715d492ea26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structure">
+      <UniqueIdentifier>{91e8e5bc-6d3c-4e5f-9aa4-47b221a43396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI Manager">
+      <UniqueIdentifier>{bfe14d9f-9940-41c8-80aa-63d55921a479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI Manager">
+      <UniqueIdentifier>{811bb0ba-ea3b-489d-b1fe-0c2859d40061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Structure">
+      <UniqueIdentifier>{f9c47621-66f9-4816-9740-ee98f74159cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_demo.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_draw.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_tables.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\GUI Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Source Files\Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameEntity.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tile.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World.cpp">
+      <Filter>Source Files\World Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\helpers\GuiHelpers.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\helpers\RenderHelpers.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Integrator.cpp">
+      <Filter>Source Files\Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingSphere.cpp">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoundingVolumeHierarchy.cpp">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Agent.cpp">
+      <Filter>Source Files\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>Source Files\AI Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateFunctions.cpp">
+      <Filter>Source Files\AI Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Config.h">
+      <Filter>Header Files\World Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SteeringBehaviours.cpp">
+      <Filter>Source Files\AI Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Node.cpp">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pathfinder.cpp">
+      <Filter>Source Files\AI Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LocomotionSystem.cpp">
+      <Filter>Source Files\AI Module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\imgui\imconfig.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imgui.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imgui_internal.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imstb_rectpack.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imstb_textedit.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui\imstb_truetype.h">
+      <Filter>Header Files\GUI Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\helpers\GuiHelpers.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\helpers\IGuiHelpers.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\helpers\IRenderHelpers.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\helpers\RenderHelpers.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameEntity.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Projectile.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tile.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tower.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World.h">
+      <Filter>Header Files\World Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Header Files\Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Integrator.h">
+      <Filter>Header Files\Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoundingSphere.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoundingVolumeHierarchy.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Agent.h">
+      <Filter>Header Files\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>Header Files\AI Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateFunctions.h">
+      <Filter>Header Files\AI Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SteeringBehaviours.h">
+      <Filter>Header Files\AI Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Node.h">
+      <Filter>Header Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pathfinder.h">
+      <Filter>Header Files\AI Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LocomotionSystem.h">
+      <Filter>Header Files\AI Module</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\imgui\LICENSE.txt" />
+    <Text Include="map_colour.txt" />
+    <Text Include="map_height.txt" />
+    <Text Include="map_obstacle.txt" />
+    <Text Include="map_walkable.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="..\.gitignore" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
